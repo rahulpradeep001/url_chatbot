@@ -46,7 +46,7 @@ A Streamlit-based application for analyzing financial and news articles. This to
 
 1. **Run the application**:
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 2. **Input URLs**:
@@ -59,7 +59,7 @@ A Streamlit-based application for analyzing financial and news articles. This to
 
 ## Code Structure
 
-- `app.py`: Main application file containing functionalities for data loading, embedding, and Q&A.
+- `main.py`: Main application file containing functionalities for data loading, embedding, and Q&A.
 - **Modules**:
   - `langchain`: Handles OpenAI model and embeddings.
   - `FAISS`: Manages vector storage and retrieval.
